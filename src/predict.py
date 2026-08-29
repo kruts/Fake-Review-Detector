@@ -5,6 +5,10 @@ from pathlib import Path
 import pandas as pd
 from clean_text import clean_text
 from features import extract_numeric_features
+
+DEFAULT_PIPELINE_PATH = Path(__file__).resolve().parents[1] / "outputs" / "pipeline.joblib"
+
+
 def predict_single(pipeline_path: Path, text: str) -> dict:
     pipe = joblib.load(pipeline_path)
     s = clean_text(text)
@@ -16,7 +20,7 @@ def predict_single(pipeline_path: Path, text: str) -> dict:
     return {"label": label, "fake_probability": prob}
 def main():
     ap = argparse.ArgumentParser(description="Predict FAKE/REAL for a review.")
-    ap.add_argument("--pipeline", default="outputs/pipeline.joblib")
+    ap.add_argument("--pipeline", default=DEFAULT_PIPELINE_PATH, type=Path)
     ap.add_argument("--text", required=True)
     args = ap.parse_args()
     print(json.dumps(predict_single(Path(args.pipeline), args.text), indent=2))
